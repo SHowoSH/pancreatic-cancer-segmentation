@@ -66,3 +66,13 @@
 ```bash
 git clone [https://github.com/SHowoSH/pancreatic-cancer-segmentation.git](https://github.com/SHowoSH/pancreatic-cancer-segmentation.git)
 cd pancreatic-cancer-segmentation
+
+필요 라이브러리 설치
+Bash
+
+pip install -r requirements.txt
+학습 실행
+pancreatic-cancer-segmentation-training.ipynb 노트북 파일의 데이터 경로(DRIVE_BASE_PATH)를 수정한 후 실행합니다.
+
+추론 및 3D 시각화
+3d-visualization-and-inference.ipynb 노트북 파일의 모델 및 데이터 경로를 수정한 후 실행하면, pancreas_3d_visualization.html 파일이 생성됩니다.
